@@ -1,4 +1,4 @@
-import  = ["~/.config/alacritty/themes/themes/iterm.toml"]
+import  = ["~/.config/alacritty/themes/wombat.toml"]
 
 [shell]
 program = "/bin/zsh"
