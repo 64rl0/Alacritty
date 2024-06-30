@@ -5,7 +5,7 @@
 # \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
 
 
-import  = ["${HOME}/.config/alacritty/themes/carlogtt.toml"]
+import  = ["~/.config/alacritty/themes/carlogtt.toml"]
 
 [shell]
 program = "/bin/zsh"
