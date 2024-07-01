@@ -24,3 +24,14 @@ resize_increments = true
 [font]
 normal = { family = "MonoLisa", style = "Regular" }
 size = 18
+
+[[keyboard.bindings]]
+chars = "\u001B[27;5;9~"
+key = "Tab"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;6;9~"
+key = "Tab"
+mods = "Control|Shift"
+
