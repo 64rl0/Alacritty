@@ -25,6 +25,11 @@ resize_increments = true
 normal = { family = "MonoLisa", style = "Regular" }
 size = 18
 
+[hints]
+enabled = [
+{command = "open", hyperlinks = true, post_processing = true, persist = false, mouse.enabled = true, binding = { key = "U", mods = "Control|Shift" }, regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"},
+]
+
 [keyboard]
 bindings = [
 { key = "Tab", mods = "Control", chars = "\u001B[27;5;9~" },
