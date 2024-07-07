@@ -27,6 +27,9 @@ opacity = 0.92
 blur = true
 resize_increments = true
 
+[bell]
+command = { program = "osascript", args = ["-e", "beep"] }
+
 [cursor]
 style = { shape = "Block", blinking = "Off" }
 
