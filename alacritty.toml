@@ -37,7 +37,7 @@ style = { shape = "Block", blinking = "Off" }
 # normal = { family = "MonoLisa", style = "Regular" }
 # size = 18
 normal = { family = "SauceCodePro Nerd Font Mono", style = "Regular" }
-size = 20
+size = 19
 
 [hints]
 enabled = [
