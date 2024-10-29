@@ -8,11 +8,11 @@
 # https://alacritty.org/config-alacritty.html
 
 
-import  = ["~/.config/alacritty/themes/catppuccin_mocha.toml"]
+general.import  = ["~/.config/alacritty/themes/catppuccin_mocha.toml"]
 
-live_config_reload = true
+general.live_config_reload = true
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = []
 
